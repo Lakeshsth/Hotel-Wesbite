@@ -4,6 +4,7 @@ import Pic1 from '../assets/pic1.jpg';
 import Pic2 from '../assets/pic2.jpg';
 import Pic3 from '../assets/pic3.jpg';
 import Pic4 from '../assets/pic4.jpg';
+import { CiCalendarDate, CiCircleChevDown, CiSearch } from "react-icons/ci";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -48,22 +49,47 @@ function Body() {
           Voyage Hotel & Spa offers stylish and modern accommodations with
           luxurious amenities in every room so that you could enjoy your stay.
         </p>
-
-        <button className="uppercase px-7 bg-amber-500  text-xl md:text-xl font-bold mt-7 rounded-2xl">
-          Book An Appointment
+        <div className="flex gap-8">
+        <button className="uppercase px-7  py-2 bg-[#c5a880]  text-xl md:text-sm font-medium mt-7 cursor-pointer">
+          Take A Tour
         </button>
+        <button className="uppercase px-7 py-2 border border-white  text-xl md:text-sm font-medium mt-7 cursor-pointer">
+          Learn More
+        </button>
+
+        </div>
+
+       
       </div>
 
-    
-      <style>
-        {`
-          /* Default swiper navigation buttons */
-          .swiper-button-next,
-          .swiper-button-prev {
-            z-index: 10 !important;
-          }
-        `}
-      </style>
+      <div className="absolute bottom-[-9%] md:h-[40%] left-1/2 transform -translate-x-1/2 translate-y-1/2 w-[90%] h-[65%] bg-[#343a40] flex justify-center items-center z-40">
+      <ul className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-[40%]">
+        <div className="text-center ">
+        <li className="text-white font-bold">Check-In</li>
+        <input className="text-white text-center"   type="Check-in Date" placeholder="Check-in Date" /> 
+        </div>
+        <div>
+        <li className="text-white font-bold text-center">Check-Out</li>
+        <input className="text-white text-center" type="Check-in Date" placeholder="Check-Out Date" />
+        </div>
+        <div>
+        <li className="text-white font-bold text-center">Rooms</li>
+        <input className="text-white text-center" type="Check-in Date" placeholder="Suite" />
+        </div>
+        <div>
+        <li className="text-white font-bold text-center">Guest</li>
+        <input className="text-white text-center" type="Check-in Date" placeholder="1 Person" />
+        </div>
+        <button className="bg-[#c5a880] uppercase px-7 py-4 font-bold text-white"> Check Availability </button>
+        
+      </ul>
+
+      </div>
+<div className="h-screen">
+  
+</div>
+
+  
     </div>
   );
 }
