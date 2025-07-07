@@ -38,22 +38,22 @@ function Body() {
 
       <div className="absolute inset-0 bg-black/60 z-20"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4 text-center z-30">
-        <h1 className="text-4xl font-bold mb-6 lg:text-7xl md:text-5xl sm:text-4xl">
+        <h1 className="text-[2rem] font-bold mb-4 lg:text-7xl md:text-5xl sm:text-4xl">
           Spend Your Best Holiday <br />
-          <span className="text-3xl md:text-4xl lg:text-5xl">
+          <span className="text-3xl md:text-[3rem]">
             at Our Hotel
           </span>
         </h1>
 
-        <p className="max-w-[700px] text-lg">
+        <p className="max-w-[700px] text-">
           Voyage Hotel & Spa offers stylish and modern accommodations with
           luxurious amenities in every room so that you could enjoy your stay.
         </p>
         <div className="flex gap-8">
-        <button className="uppercase px-7  py-2 bg-[#c5a880]  text-xl md:text-sm font-medium mt-7 cursor-pointer">
+        <button className="uppercase px-7  py-2 bg-[#c5a880]  md:text-sm font-medium mt-7 cursor-pointer">
           Take A Tour
         </button>
-        <button className="uppercase px-7 py-2 border border-white  text-xl md:text-sm font-medium mt-7 cursor-pointer">
+        <button className="uppercase px-7 py-2 border border-white md:text-sm font-medium mt-7 cursor-pointer">
           Learn More
         </button>
 
@@ -62,7 +62,7 @@ function Body() {
        
       </div>
 
-      <div className="absolute bottom-[-9%] md:h-[40%] left-1/2 transform -translate-x-1/2 translate-y-1/2 w-[90%] h-[65%] bg-[#343a40] flex justify-center items-center z-40">
+      <div className="absolute bottom-[-10%] md:bottom-[-1%] md:h-[20%] left-1/2 transform -translate-x-1/2 translate-y-1/2 w-[90%] h-[65%] bg-[#343a40] flex justify-center items-center z-40 shadow-2xl">
       <ul className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-[40%]">
         <div className="text-center ">
         <li className="text-white font-bold">Check-In</li>
@@ -80,15 +80,11 @@ function Body() {
         <li className="text-white font-bold text-center">Guest</li>
         <input className="text-white text-center" type="Check-in Date" placeholder="1 Person" />
         </div>
-        <button className="bg-[#c5a880] uppercase px-7 py-4 font-bold text-white"> Check Availability </button>
+        <button className="bg-[#c5a880] uppercase px-6 py-1 font-bold text-white cursor-pointer"> Check Availability </button>
         
       </ul>
 
       </div>
-<div className="h-screen">
-  
-</div>
-
   
     </div>
   );
