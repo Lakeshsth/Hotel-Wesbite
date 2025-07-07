@@ -11,7 +11,7 @@ function Header() {
         <ul className="gap-6 items-center hidden md:flex">
           <li>Home</li>
           <li>About </li>
-          <li className='flex'>Services <span > <CiCircleChevDown className='text-2xl'  /> </span> </li>
+          <li className='flex'>Services <span >  </span> </li>
           <li>Product</li>
           <li>Blog</li>
           <li>Contact</li>
