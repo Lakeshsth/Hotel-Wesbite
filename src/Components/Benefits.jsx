@@ -49,15 +49,22 @@ function Benefits() {
                 desc = 'Wifi Acces'  />
                 
             </div>
-            <div className='mt-9'>
+            <div className='mt-9 text-center'>
                 <h1 className='font-bold'>Need Help?</h1>
-                <div className='grid text-center md:flex justify-center gap-9 mt-4'>
-
-                <a className=' flex items-center gap-2 uppercase text-[14px] font-medium text-[#c5a880]' href="">Contact Our SePecialists  <CiSquareChevDown className='text-2xl' /></a>
-                <a className=' flex items-center gap-2 uppercase text-[14px] font-medium text-[#c5a880]' href="">View Benefits Details <CiSquareChevDown className='text-2xl' /></a>
-                </div>
-           
-
+                <div className='flex flex-col md:flex-row justify-center items-center gap-4 md:gap-9 mt-4'>
+                    <a
+                    className='flex items-center gap-2 uppercase text-[14px] font-medium text-[#c5a880]'
+                    href=""
+                    >
+                    Contact Our Specialists <CiSquareChevDown className='text-2xl' />
+                    </a>
+                    <a
+                    className='flex items-center gap-2 uppercase text-[14px] font-medium text-[#c5a880]'
+                    href=""
+                    >
+                    View Benefits Details <CiSquareChevDown className='text-2xl' />
+                    </a>
+                 </div>
             </div>
            
             

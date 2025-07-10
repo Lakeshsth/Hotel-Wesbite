@@ -25,9 +25,7 @@ function Aboutus() {
         
       
     </div>
-    <div className='h-200'>
-
-    </div>
+  
     </>
   )
 }

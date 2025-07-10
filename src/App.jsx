@@ -5,6 +5,7 @@ import Body from './components/body';
 import Card from './Components/Card';
 import Benefits from './Components/Benefits';
 import Aboutus from './Components/Aboutus';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Card />
       <Benefits />
       <Aboutus />
+      <Footer />
      
     </>
   );
