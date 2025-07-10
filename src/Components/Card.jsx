@@ -12,7 +12,7 @@ const Card2 =({title, image, price}) =>{
     
     return(
         <>
-        <div className='w-[17rem] h-[22rem] bg-[#ffffff] rounded-2xl  flex justify-center mx-auto border border-[#343a4044]'>
+        <div className='w-[17rem] h-[22rem] bg-[#ffffff] rounded-2xl  flex  justify-center mx-auto border border-[#343a4044]'>
             <div className='flex flex-col justify-center items-center'>
                 <img
                 src={image}
@@ -21,7 +21,7 @@ const Card2 =({title, image, price}) =>{
                 />
                 <div className='font-medium text-center mt-4'>{title}</div>
                 <p className='text-[15px] text-[#c5a880] font-bold  text-center '>{price} .PER NIGHT</p>
-                <button className='bg-[#343a40] text-white font-medium px-4 py-2 rounded hover:bg-[#c5a880] cursor-pointer mt-2'>Book Now</button>
+                <button className='bg-[#343a40] text-white font-medium px-4 py-2 rounded hover:bg-[#c5a880] cursor-pointer mt-2 duration-500'>Book Now</button>
 
             </div>
 
@@ -54,7 +54,7 @@ function Card() {
             <p className='mt-3 uppercase'>Best Rooms For your Comfort Stay</p>
 
             </div>
-            <div className=" hidden md:flex justify-end gap-2 mb-4 px-4">
+            <div className=" hidden md:flex justify-end gap-2 mb-5 px-4">
           <button className="custom-prev bg-[#343a40] text-white px-4 py-1 rounded-md hover:bg-[#c5a880] ">
             Prev
           </button>
@@ -63,7 +63,7 @@ function Card() {
           </button>
         </div>
 
-            <div className='md:flex   justify-center items-center '>
+            <div className='md:flex    justify-center items-center '>
                 
                 <Swiper
             modules={[Navigation]}
@@ -72,7 +72,7 @@ function Card() {
                 nextEl: '.custom-next',
             }}
             spaceBetween={20}
-            slidesPerView={4}
+            slidesPerView={5}
             loop={true}
             >
 
