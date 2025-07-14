@@ -53,8 +53,8 @@ function Footer() {
             </div>
            
         </div>
-        <div className='w-full h-[5rem] bg-amber-800 flex justify-center items-center mt-[8rem]'>
-                <p>Copyright ©2025 All rights reserved | This template is made with  by Colorlib</p>
+        <div className='w-full h-[5rem] bg-[#343a40] text-white flex justify-center items-center mt-[8rem]'>
+                <p className='text-[]'>Copyright ©2025 All rights reserved | This template is made with  by Lakesh Shrestha</p>
             </div>
       
     </div>
