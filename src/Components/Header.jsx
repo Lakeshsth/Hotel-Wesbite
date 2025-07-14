@@ -1,6 +1,8 @@
 import React from 'react'
 import Lak from '../assets/Logolak.png'
 import { CiShoppingCart, CiCircleChevDown, CiSearch } from "react-icons/ci";
+import { Link } from 'react-router-dom';
+
 
 
 function Header() {
@@ -11,10 +13,10 @@ function Header() {
         <ul className="gap-6 items-center hidden md:flex">
           <li>Home</li>
           <li>About </li>
-          <li className='flex'>Services <span > <CiCircleChevDown className='text-2xl'  /> </span> </li>
+          <li className='flex'>Services <span >  </span> </li>
           <li>Product</li>
           <li>Blog</li>
-          <li>Contact</li>
+          <li><Link to="/contact">Contact us</Link></li>
         </ul>
         <div className='flex gap-3 items-center'>
         <CiSearch className='text-2xl' />
