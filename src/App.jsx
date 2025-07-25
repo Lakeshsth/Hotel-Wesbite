@@ -22,12 +22,13 @@ function App() {
               <Card />
               <Benefits />
               <Aboutus />
-              <Footer />
+              
             </>
           }
         />
         <Route path="/contact" element={<Contactus />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
